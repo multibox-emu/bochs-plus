@@ -13,11 +13,11 @@
 #include "config.h"
 #include "slirp_config.h"
 
-#ifdef _WIN32
-
 #if !defined(_MSC_VER)
 # include <inttypes.h>
 #endif
+
+#ifdef _WIN32
 
 typedef char *caddr_t;
 
